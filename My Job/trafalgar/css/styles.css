@@ -1,0 +1,103 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+   margin: 0 auto;
+   padding: 0 80px;
+}
+.title{
+  text-align: center;
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 56px;
+}
+.title-box {
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 56px;
+}
+hr{
+  width: 56px;
+  border-color: black;
+}
+.text1{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  text-transform:;
+}
+
+.chek-content{
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+     justify-content: space-between; 
+}
+.box{
+  width: 350px;
+  height: 324px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 54px 37px; 
+  box-shadow: 10px 40px 50px 0px #E5E9F666;
+  margin-bottom: 40px;
+
+}
+.text{
+  color: #7D7987;
+  width: 266px;
+  height: 66px;
+}
+.link{
+  text-decoration: none;
+  border: 2px solid #00BAFC;
+  border-radius: 55px;
+  color: #00BAFC;
+  padding: 8px 16px;
+  transition: 0.3s ease all;
+} 
+.link:hover {
+    background: #00BAFC;
+    border: 2px solid #00BAFC;
+    color:white;
+}
+
+.link:active {
+    background-color: white;
+    color: #00BAFC;
+    opacity: 0.7;
+}
+.check-content {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.check-content::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(../img/shakl.png);
+  width: 130px;
+  height: 115px;
+  top: calc(10% - 30px);
+  right: calc(10% - 190px);
+  z-index: -1;
+}
+
+.check-content::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(../img/tochka.png);
+  background-repeat: no-repeat;
+  width: 520px;
+  height: 660px;
+  top: calc(10% - 50px);
+  left: calc(10% - -750px);
+  z-index: -1;
+}

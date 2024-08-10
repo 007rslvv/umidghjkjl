@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-08 03:42:43 "/>
+        <attribute name="created" value="SFA7REVTS1RPUC1WUk8ySUpPOzIwMjMtMDktMDg7IjAyOjQ3OjQzICI7MjQ1Nw=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1WUk8ySUpPOzIwMjMtMDktMDg7IjAzOjQyOjQzICI7MTsyNTYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Asalomu alekum&quot;" newline="False"/>
+            <output expression="&quot;apl kapaniyasiga kanalga hush kelibsz&quot;" newline="True"/>
+            <output expression="&quot;o'zingiz haqizda malumot bering&quot;" newline="True"/>
+            <declare name="Odil" type="String" array="False" size=""/>
+            <input variable="Odil"/>
+            <output expression="&quot;tanishganimizdan hursandman&quot; &amp; Odil &amp;&quot;&quot;" newline="True"/>
+            <output expression="&quot; sizga biz qanday yordam bera olamiz &quot;" newline="True"/>
+            <declare name="umid" type="String" array="False" size=""/>
+            <input variable="umid"/>
+            <output expression="&quot;bizda iphone 14 pro maxlar 2min doldran sotiladi &quot;" newline="True"/>
+            <declare name="Iphone" type="String" array="False" size=""/>
+            <input variable="iphone"/>
+            <output expression="&quot;Bizga o'z manzilingiz va telefon raqamingz va ehtiyot shart yana bita nomer berin&quot;" newline="True"/>
+            <declare name="yetkazish" type="String" array="False" size=""/>
+            <input variable="yetkazish"/>
+            <output expression="&quot;Aha hop rahmat sizning zakasingiz 1 2 kundan kegin yetb boradi &quot;" newline="True"/>
+            <declare name="kun" type="String" array="False" size=""/>
+            <input variable="kun"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  box-sizing: inherit;
+  height: 100%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 100px;
+}
+.eshik{
+    transform: translateX(-200px);
+transition: 2s ease all;
+}
+.eshik2{
+    transform: translateX(200px);
+transition: 2s ease all;
+}
+.content:hover .eshik{
+    transform: translateX(0);
+}
+.content:hover .eshik2{
+    transform: translateX(0);
+}
+.p{
+    text-align: center;
+    display: flex;
+}
+.content{
+
+}

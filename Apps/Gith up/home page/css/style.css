@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto ;
+    padding: 0 20px;
+}
+header{ 
+    padding: 30px 0;
+    background-color: black;
+ }
+ .header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+ }
+ .header__list {
+    display: flex;
+    list-style-type: none;
+}
+.header__item {
+    margin-right: 24px;
+    color: azure;
+}
+.header__link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white ;
+    transition: 0.3s  ease all;
+    text-decoration: none;
+}
+.header__bottom{
+    display: inline-flex;
+    padding: 16px 48px;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--Light, #FFF);
+    text-decoration: none;
+}
+nav {
+    background: var(--Lavender, #F4F0F8);
+}
+.nav__container{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 80px ;
+    padding-bottom: 80px ;
+}
+.nav__title{
+    color: var(--Black, #232536);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.nav__title2{
+    width: 624px;
+    color: var(--Black, #232536);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+.nav__text{
+    color: var(--Dark-Grey, #4C4C4C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    margin-bottom: 20px;
+}
+.nav__text2{
+    width: 624px;
+    color: var(--Medium-grey, #6D6E76);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-bottom: 20px;
+}
+.nav__link{
+    display: inline-flex;
+    padding: 16px 48px;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--Yellow, #FFD050);
+    text-decoration: none;
+}
+.main__title{
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; 
+    letter-spacing: -2px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+.hr{
+    margin-top: 62px;
+}

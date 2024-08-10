@@ -1,0 +1,33 @@
+.b{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.btn{
+color: rgb(246, 246, 251);
+background-color: rgb(41, 15, 159);
+border: 1px solid white;
+border-radius: 30px;
+padding: 5px 60px; 
+margin-bottom: 40px; 
+}
+.btn2{
+    color: rgb(246, 246, 251);
+    background-color: blueviolet;
+    border: 1px solid white; 
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 5px 60px;
+    margin-bottom: 40px;
+}
+.btn3{
+    color: rgb(246, 246, 251);
+    background-color: blue;
+    border: 1px solid white; 
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 5px 60px;
+margin-bottom: 40px;
+}

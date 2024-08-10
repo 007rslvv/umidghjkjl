@@ -1,0 +1,28 @@
+.img{
+    overflow: auto;
+}
+.link1{
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    text-decoration: none;
+    
+    background-color: #458FF6;
+    color: rgb(177, 1, 136);
+}
+.link{
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    text-decoration: none;
+    background-color: #458FF6;
+}
+.text{
+    font-family: "Mulish";
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}

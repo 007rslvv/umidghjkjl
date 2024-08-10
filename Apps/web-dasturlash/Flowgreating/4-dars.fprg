@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-11 03:47:19 "/>
+        <attribute name="created" value="SFA7REVTS1RPUC1WUk8ySUpPOzIwMjMtMDktMTE7IjAyOjU4OjAxICI7MjQ0Nw=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1WUk8ySUpPOzIwMjMtMDktMTE7IjAzOjQ3OjE5ICI7MTsyNTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e" type="String" array="False" size=""/>
+            <output expression="&quot;sovol 14*7=? a=98 b=79 c=101&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a==&quot;a&quot;">
+                <then>
+                    <output expression="&quot;siz to'g'ri topdingiz &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;sizning jovobingiz noto'g'ri&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;sovol 1123+99=? a=1222 e=1322 d=1325&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="b=&quot;a&quot;">
+                <then>
+                    <output expression="&quot;sizning jovobingiz to'g'ri &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;jovobingiz notog'ri&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;sovol O'zbekiston poytahti qayer a=samarqand c=toshkent d=buxoro&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="c==c">
+                <then>
+                    <output expression="&quot;sizning jovobingiz to'g'ri &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;jovobingiz notog'ri&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Odil km a=o'quvchi c=o'qtuvchi d=student&quot;" newline="True"/>
+            <input variable="d"/>
+            <if expression="d==a">
+                <then>
+                    <output expression="&quot;jovobingiz to'g'ri&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;jovobingiz notog'ri&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Zokir qayerda tug'lgan a=amerika c=italiya d=o'zbekiston&quot;" newline="True"/>
+            <input variable="e"/>
+            <if expression="d==d">
+                <then>
+                    <output expression="&quot;jovobingiz to'g'ri&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;jovobingiz notog'ri&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

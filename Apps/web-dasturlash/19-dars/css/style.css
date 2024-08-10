@@ -1,0 +1,133 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/mulish-v13-latin-300.woff2') format('woff2'); 
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mulish-v13-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/mulish-v13-latin-700.woff2') format('woff2'); 
+  }
+body{
+    font-family: "Mulish";
+}
+.div-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.baxrom{
+width: 444px;
+}
+.odil{
+    color: black;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+.zokir{
+    color:black ;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400 ;
+    line-height: 32px ;
+}
+.con{
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    border-radius: 55px;
+    background: #0c68ea;
+    border: 2px solid;
+    text-decoration: none;
+    padding:10px 20px ;
+}
+
+.con:hover{
+    background: none;
+    border: 2px solid #0c68ea;
+    color: #0c68ea;
+}
+.con:active{
+    background-color: #0c68ea;
+    color: white;
+    opacity: 0.7;
+    transition: none;
+}
+.hom{
+    text-decoration: none;
+    list-style-type: none;
+}
+.hon{
+    text-decoration: none;
+    list-style-type: none;
+}
+.hoh{
+    text-decoration: none;
+    list-style-type: none;
+}
+.hob{
+    text-decoration: none;
+    list-style-type: none;
+}
+.hop{
+    text-decoration: none;
+    list-style-type: none;
+}
+.home{
+    display: inline-block;
+}
+.fi{
+    display: inline-block;
+}
+.ap{
+    display: inline-block;
+}
+.tes{
+    display: inline-block;
+}
+.ab{
+    display: inline-block;
+}
+.our{
+    text-align: center;
+    color: black;
+}
+.chz{
+    width: 56px;
+    background-color: black;
+    height: 2px;
+}
+.pro{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+

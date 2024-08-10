@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.word{
+    background-color: rgb(0, 145, 255);
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 100px auto;
+    transition: 0.3s ease all;
+    box-shadow: 115px 115px 2px 0px black,
+                -115px -115px 2px 0px green;
+}
+.word:hover{
+            box-shadow: -0px -0px 2px 0px green,
+                        5px 5px 2px 0px black 
+                        ;
+                        border-radius: 50px;
+}   
+.word:active{
+            box-shadow: 75px 75px 2px 0px green,
+                        -75px -75px 2px 0px black;
+}
+.Rasulov{
+    text-align: center;
+    padding: 65px;
+    text-shadow: 15px 15px 4px grey;
+    margin: 25px auto;
+}

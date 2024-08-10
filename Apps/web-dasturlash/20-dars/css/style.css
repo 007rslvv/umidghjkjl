@@ -1,0 +1,37 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.Kubikrubik{
+    background-color: red;
+    border-radius: 20px;
+    width:150px ;
+    height: 150px;
+    margin: 100px auto;
+    transition: 0.3s ease all;
+    box-shadow: 75px 75px 2px 0px blue,
+                -75px -75px 2px 0px orange,
+                -75px 75px 2px 0px yellow,
+                75px -75px 2px 0px green ;
+}
+.Kubikrubik:hover{
+    
+    box-shadow: -75px -75px 2px 0px green,
+                75px 75px 2px 0px yellow,
+                75px -75px 2px 0px orange,
+                -75px 75px 2px 0px blue;
+border-radius: 50%;
+}
+.Kubikrubik:active{
+                box-shadow:75px -75px 2px 0px green,
+                -75px 75px 2px 0px yellow,
+                75px 75px 2px 0px orange,
+                -75px -75px 2px 0px blue;
+                              
+}
+.he{
+
+}

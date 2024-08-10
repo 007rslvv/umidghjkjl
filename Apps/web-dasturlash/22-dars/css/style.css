@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.rasulov{
+    background-color: gold;
+    border: 2px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 30px;
+color: blue;
+}
+.rasulov:nth-child(3){
+    background-color: aqua;
+}

@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  box-sizing: inherit;
+  height: 100%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+}
+
+
+/* .Rasulov{
+    background: linear-gradient(to bottom,
+ blue 0%,
+ blue 30%,
+ red 30%,
+ red 33%,
+ white 33%,
+ white 63%,
+ red 63%,
+ red 66%,
+ green 66%,
+ green 100%
+ );
+ width: 100vw;
+ height: 100vh;
+} */ 
+/* .Rasulov{
+    background-image: url(../img/file__19-08-2022_112321.png);
+    width: 100vw;
+    height: 100vh;
+} */
+/* .Rasulov{
+    background: linear-gradient(to bottom,
+    black 0% ,
+    black 30%,
+    red 30%,
+    red 60%,
+    orange 60%,
+    orange 100%);
+    width: 100vw;
+    height: 100vh;
+} */
+/* .Rasulov{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom,
+    skyblue 0%,
+    skyblue 33%,
+    white 33%,
+    white 66%,
+    skyblue 66%,
+    skyblue 100%
+    );
+    padding-top: 350px;
+    
+}
+img{
+    display: block;
+    margin: 0 auto;
+} */
+/* .Rasulov{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom,
+  red 0%,
+  red 33%,
+  rgb(239, 178, 65) 33%,
+  rgb(239, 178, 65) 66%,
+  red 66%,
+  red 100%);
+  padding-top:350px ;
+  text-align: center;
+} */
+/* .Rasulov{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right,
+  black 0%,
+  black 33%,
+  red 33%,
+  red 66%,
+  green 66%,
+  green 100%
+  );
+  padding-top: 350px;
+  text-align: center;
+} */
+ .Rasulov{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom,
+  green 0%,
+  green 33%,
+  white 33%,
+  white 66%,
+  red 66%,
+  red 100%);
+  padding-top: 350px;
+  text-align: center;
+} 
+/* .Rasulov{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right,
+  red 0%,
+  red 25%,
+  white 25%,
+  white 75%,
+  red 75%,
+  red 100%);
+  padding-top: 350px;
+  text-align: center;}
+   */

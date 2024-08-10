@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .bayrog {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    blue 0%,
+    blue 18%,
+    white 18%,
+    white 36%,
+    red 36%,
+    red 64%,
+    white 64%,
+    white 82%,
+    blue 82%,
+    blue 100%
+  );
+}
+.img{
+    padding-top: 320px;
+padding-left: 500px;
+} */
+/* .bayrog {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    rgb(99, 99, 235) 0%,
+    rgb(99, 99, 235) 35%,
+    white 35%,
+    white 65%,
+    rgb(99, 99, 235) 65%,
+    rgb(99, 99, 235) 100%
+  );
+}
+.img{
+    padding-top:230px;
+padding-left: 520px;} */
+/* .bayrog{
+    width: 100vw;
+    height: 100vh;   
+    background: linear-gradient(
+        to top,
+        red 0%,
+        red 30%,
+        white 30%,
+        white 70%,
+        red 70%,
+        red 100%
+    );
+    .img{
+        padding-top:180px;
+    padding-left: 520px;}
+} */
+ /* .bayrog{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+       to bottom,
+       black 0%,
+       black 33%,
+       white 33%,
+       white 66%,
+       green 66%,
+       green 100% 
+    )
+    ;
+ }
+
+.bayrog::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 510px;
+    height: 510px;
+    background-color: red;
+    transform: rotate(45deg);
+    top: calc(10% - -40px);
+    left: calc(10% - 408px);
+} */
+ .bayrog{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    blue 0%,
+    blue 40%,
+    white 40%,
+    white 45%,
+    red 45%,
+    red 55%,
+    white 55%,
+    white 60%,
+    green 60%,
+    green 100%
+  );
+ }
+
+.img{
+  padding-top: 25px; 
+  padding-left: 25px;
+}
+
+
+
+
+

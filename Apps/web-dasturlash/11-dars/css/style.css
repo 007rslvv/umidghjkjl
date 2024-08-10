@@ -1,0 +1,21 @@
+body{
+ background-color: rgb(75, 157, 203) ;
+}
+.ob-hovo{
+    background-color: aliceblue;
+    color: rgb(75, 157, 203);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.container{
+    background-color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    width: 800px;
+}
+.sun{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}

@@ -1,0 +1,30 @@
+
+.box{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 300px;
+    height: 200px ;
+    border-radius: 20px ;
+    background-color: brown;
+    transition: 0.3s ease all;
+    box-shadow: 
+    100px -100px 0 0 black,
+    -100px -100px 0 0 rgb(0, 128, 128), 
+    100px 100px 0 0 orange ,
+    -100px 100px 0 0 rgb(0, 0, 78);
+}
+.box:hover{ 
+    box-shadow: 
+    100px 100px 0 0 black,
+    100px -100px 0 0 rgb(0, 128, 128),
+    -100px 100px 0 0 orange,
+   -100px -100px 0 0  rgb( 0, 0, 78);
+}
+.box:active{
+    box-shadow: 
+    -100px -100px 0 0 black,
+    100px 100px 0 0 rgb(0, 128, 128),
+    100px -100px orange, 
+    -100px 100px 0 0 rgb( 0, 0, 78);
+    border-radius: 50px;
+}

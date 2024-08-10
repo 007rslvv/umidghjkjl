@@ -1,0 +1,385 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/lato-v24-latin-700.woff2') format('woff2'); 
+  }
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/work-sans-v19-latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/work-sans-v19-latin-500.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/work-sans-v19-latin-700.woff2') format('woff2');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Work Sans", "Lato";
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles start */
+
+header {
+    background-color: #1F98F0;
+    padding: 30px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+.header-item {
+    margin-right: 50px;
+}
+
+.header-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color:#1E313B ;
+    opacity: 0.7;
+    border-bottom: 2px solid #1F98F0;
+    transition: 0.3s  ease all;
+}
+
+.header-link-active {
+    opacity: 1;
+}
+
+.header-link-btn {
+    text-decoration: none;
+    background-color:#1E313B;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 5px 30px;
+    border-radius: 15px;
+    border: 2px solid      
+    ;
+    transition: 0.3s  ease all;
+}
+
+.header-link:hover {
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+}
+
+.header-link:active {
+    transition: none;
+    border: none;
+    opacity: 1;
+}
+
+.header-link-btn:hover {
+    background: none;
+      
+      
+    border: 2px solid;
+    color: white;
+}
+.header-link-btn:active {
+    background-color: white;
+    opacity: 0.7;
+    color: #03101A;
+    transition: none;
+}
+/* Header styles end */
+
+/* Intro styles start */
+
+.intro {
+    background-color: #1F98F0;
+    padding: 80px 0;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-content {
+    width: 500px;
+}
+
+.intro-title {
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 66px;
+    color: white;
+    margin-bottom: 30px;    
+}
+
+.intro-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+/* Intro styles end */
+
+/* App styles start */
+
+.app-container {
+    padding-top: 63px;
+    padding-bottom: 40px;
+}
+
+.app-title {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #03101A;
+    margin-bottom: 45px;    
+}
+
+
+/* App styles end */
+
+/* Main styles start */
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 110px;
+    margin-bottom: 77px;
+}
+
+.main-content {
+    width: 569px;
+}
+
+.main-title {
+    font-family: "Lato";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #03101A;
+    margin-bottom: 84px; 
+}
+
+.main-content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.main-box {
+    margin-left: 30px;
+}
+
+.main-name {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #03101A;    
+}
+
+.main-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #03101A;    
+}
+
+/* Main styles end */
+
+
+/* Test styles start */
+
+.test-container {
+    padding: 80px;
+}
+
+.test-title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #03101A;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.test-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.test-box {
+    width: 280px;
+    text-align: center;
+}
+
+.test-name {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #03101A;
+    padding: 20px 0;    
+}
+
+.test-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #03101A;
+}
+
+/* Test styles end */
+/* Food styles start */
+
+.food {
+    background-color: #1F98F0;
+    padding: 110px 0;
+}
+
+.food-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.food-title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    color: white;    
+}
+
+.food-link {
+    background-color: white;
+    color: #1F98F0;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    transition: 0.3s ease all;    
+}   
+
+.food-link:hover {
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+.food-link:active{
+    background-color: white;
+    color: #1F98F0;
+    opacity: 0.7;
+    transition: none
+}
+
+/* Food styles end */
+/* Footer styles start */
+
+footer {
+    background-color: #03101A;
+    padding: 100px 0;
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    width: 325px;
+    margin-top: 35px;    
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-item {
+    margin-bottom: 15px;
+}
+
+.footer-title {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    color: white;    
+    opacity: 1;
+    text-decoration: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    color: white;
+    transition: 0.3s ease all;
+}
+
+.footer-link:hover {
+    opacity: 1;
+}
+
+.footer-link:active {
+    color: red;
+    transition: none;
+}
+
+/* Footer styles end */
